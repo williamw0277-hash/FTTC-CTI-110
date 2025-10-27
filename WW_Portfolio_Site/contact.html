@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact • Willie Williams</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="site-title">Willie Williams <span>• Contact</span></div>
+    
+<nav class="nav">
+  <a href="index.html">Home</a>
+  <a href="projects.html">Projects</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+  </header>
+  <div class="container">
+    <main>
+      <h1>Contact Me</h1>
+      <p>Or email directly: <a class="a-inline" href="mailto:williamw0277@student.faytechcc.edu">williamw0277@student.faytechcc.edu</a></p>
+      <h2>Feedback Form</h2>
+      <form class="feedback" action="#" method="post">
+        <label for="name">Your Name</label>
+        <input id="name" type="text" name="name" placeholder="Jane Doe" required>
+        <label for="email">Your Email</label>
+        <input id="email" type="email" name="email" placeholder="name@example.com" required>
+        <label for="topic">Topic (Dropdown)</label>
+        <select id="topic" name="topic" required>
+          <option value="" disabled selected>Select a topic</option>
+          <option value="project">Project Inquiry</option>
+          <option value="tutoring">Tutoring/Help</option>
+          <option value="collab">Collaboration</option>
+          <option value="other">Other</option>
+        </select>
+        <fieldset>
+          <legend>Response Preference (Radio Buttons)</legend>
+          <label><input type="radio" name="response_pref" value="email" required> Email</label>
+          <label><input type="radio" name="response_pref" value="phone"> Phone</label>
+          <label><input type="radio" name="response_pref" value="either"> Either</label>
+        </fieldset>
+        <label for="comments">Comments (Comment Box)</label>
+        <textarea id="comments" name="comments" placeholder="Type your message here..."></textarea>
+        <div class="buttons">
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </div>
+      </form>
+    </main>
+  </div>
+  <footer>© 2025 Willie Williams</footer>
+</body>
+</html>
